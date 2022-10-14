@@ -1,0 +1,66 @@
+﻿function Compute-Maintenance-Impact(TRAINS)
+FOR each train r ∈ TRAINS, DO:   // Parallel run
+i ← 0
+WHILE Position[r,i] < TRAIN-DEST-POSITION[r]
+	goal-speed ← Get-Goal-Speed(Position[r,i], Time[r,i])	
+	goal-acceleration ← (goal-speed^2 - Speed[r,i]^2)/2*DELTA
+	resistance-acceleration ← Get-Resistance-Acceleration(Position[r,i], Speed[r,i])
+	available-acceleration ← Get-Available-Acceleration(Position[r,i], Speed[r,i])
+	required-acceleration ← goal-acceleration + resistance-acceleration
+
+	IF required-acceleration >= 0
+		IF required-acceleration <= available-acceleration
+			Speed[r,i+1] ← goal-speed
+			Position[r,i+1] ← Position[r,i] + DELTA
+			Time[r,i+1] ← Time[r,i] + DELTA/((Speed[r,i+1] + Speed[r,i])/2)
+		ELSE
+			net-acceleration ← (available-acceleration - resistance-acceleration)
+			IF net-acceleration >= 0
+				Speed[r,i+1] ← SQRT(Speed[r,i]^2 + 2*net-acceleration*DELTA)
+				Position[r,i+1] ← Position[r,i] + DELTA
+				Time[r,i+1] ← Time[r,i] + DELTA/((Speed[r,i+1] + Speed[r,i])/2)
+			ELSE
+				IF Speed[r,i] > 0
+					IF Speed[r,i]^2 + 2*net-acceleration*DELTA  >= 0
+						Speed[r,i+1] ← SQRT(Speed[r,i]^2 + 2*net-acceleration*DELTA)
+						Position[r,i+1] ← Position[r,i] + DELTA
+						Time[r,i+1] ← Time[r,i] + DELTA/((Speed[r,i+1] + Speed[r,i])/2)
+					ELSE
+						Speed[r,i+1] ← 0
+						Position[r,i+1] ← Position[r,i] + Speed[r,i]^2/(2*net-acceleration)	
+						Time[r,i+1] ← Time[r,i] + Speed[r,i]/net-acceleration
+				ELSE
+					ERROR: Train stopped due to insufficient tractive power
+					IF ABS(available-acceleration - resistance-acceleration) > braking-acceleration
+						ERROR: Braking force is insufficient to hold the stopping train standstill
+					BREAK
+	ELSE
+		IF required-acceleration >= available-braking
+			Speed[r,i+1] ← goal-speed
+			Position[r,i+1] ← Position[r,i] + DELTA
+			Time[r,i+1] ← Time[r,i] + DELTA/((Speed[r,i+1] + Speed[r,i])/2)
+		ELSE
+			net-acceleration ← (available-braking - resistance-acceleration)
+			IF net-acceleration >= 0
+				Speed[r,i+1] ← SQRT(Speed[r,i]^2 + 2*net-acceleration*DELTA)
+				Position[r,i+1] ← Position[r,i] + DELTA
+				Time[r,i+1] ← Time[r,i] + DELTA/((Speed[r,i+1] + Speed[r,i])/2)
+			ELSE
+				IF Speed[r,i] > 0
+					IF Speed[r,i]^2 + 2*net-acceleration*DELTA  >= 0
+						Speed[r,i+1] ← SQRT(Speed[r,i]^2 + 2*net-acceleration*DELTA)
+						Position[r,i+1] ← Position[r,i] + DELTA
+						Time[r,i+1] ← Time[r,i] + DELTA/((Speed[r,i+1] + Speed[r,i])/2)
+					ELSE
+						Speed[r,i+1] ← 0
+						Position[r,i+1] ← Position[r,i] + Speed[r,i]^2/(2*net-acceleration)	
+						Time[r,i+1] ← Time[r,i] + Speed[r,i]/net-acceleration
+				ELSE
+					ERROR: Train stopped due to insufficient tractive power
+					IF ABS(available-acceleration - resistance-acceleration) > braking-acceleration
+						ERROR: Braking force is insufficient to hold the stopping train standstill
+					BREAK
+
+
+		
+	i ← i + 1

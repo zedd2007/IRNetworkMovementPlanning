@@ -1,0 +1,730 @@
+[
+  {
+    "id": 1727342081016835,
+    "viewName": "BVB-NSZ-SHRN-BPL-MSO BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 48,
+        "startOffset": 0.00000000,
+        "endOffset": 0.72012990
+      },
+      {
+        "blockId": 49,
+        "startOffset": 0.72012990,
+        "endOffset": 0.74140500
+      },
+      {
+        "blockId": 50,
+        "startOffset": 0.74140500,
+        "endOffset": 0.76393880
+      },
+      {
+        "blockId": 51,
+        "startOffset": 0.76393880,
+        "endOffset": 0.99999110
+      }
+    ],
+    "boundingBox": {
+      "minX": 4945,
+      "maxX": 6469,
+      "minY": -310,
+      "maxY": -60
+    }
+  },
+  {
+    "id": 1727342081016844,
+    "viewName": "BVB-NSZ-BPL-MSO BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 52,
+        "startOffset": 0.00000000,
+        "endOffset": 0.73045098
+      },
+      {
+        "blockId": 53,
+        "startOffset": 0.73045098,
+        "endOffset": 0.76043880
+      },
+      {
+        "blockId": 54,
+        "startOffset": 0.76043880,
+        "endOffset": 0.99987426
+      }
+    ],
+    "boundingBox": {
+      "minX": 4945,
+      "maxX": 6469,
+      "minY": -170,
+      "maxY": -60
+    }
+  },
+  {
+    "id": 1727342079706114,
+    "viewName": "CBK-RTA-GUNA-MINA Board",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 27,
+        "startOffset": 0.00000000,
+        "endOffset": 0.83125070
+      },
+      {
+        "blockId": 28,
+        "startOffset": 0.83125070,
+        "endOffset": 0.98733824
+      },
+      {
+        "blockId": 29,
+        "startOffset": 0.98733824,
+        "endOffset": 0.99971662
+      }
+    ],
+    "boundingBox": {
+      "minX": -1999,
+      "maxX": -931,
+      "minY": -170,
+      "maxY": 0
+    }
+  },
+  {
+    "id": 1727342079706123,
+    "viewName": "MINA-PNHR BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 30,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -985,
+      "maxX": 27,
+      "minY": -10,
+      "maxY": 10
+    }
+  },
+  {
+    "id": 1727342079706129,
+    "viewName": "MOJ-GWL BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 31,
+        "startOffset": 0.00000000,
+        "endOffset": 0.98114637
+      },
+      {
+        "blockId": 32,
+        "startOffset": 0.98114637,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -295,
+      "maxX": 1471,
+      "minY": -20,
+      "maxY": 430
+    }
+  },
+  {
+    "id": 1727342081803267,
+    "viewName": "BIR-TLV-CKKD BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 63,
+        "startOffset": 0.00000000,
+        "endOffset": 0.60894844
+      },
+      {
+        "blockId": 64,
+        "startOffset": 0.60894844,
+        "endOffset": 0.99994944
+      }
+    ],
+    "boundingBox": {
+      "minX": 11027,
+      "maxX": 11561,
+      "minY": -300,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342079443970,
+    "viewName": "PFR-CBK BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 22,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -2421,
+      "maxX": -1945,
+      "minY": -160,
+      "maxY": -130
+    }
+  },
+  {
+    "id": 1727342079443980,
+    "viewName": "CBK-RTA-GUNA-MABN BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 23,
+        "startOffset": 0.00000000,
+        "endOffset": 0.83075175
+      },
+      {
+        "blockId": 24,
+        "startOffset": 0.83075175,
+        "endOffset": 0.98674560
+      },
+      {
+        "blockId": 25,
+        "startOffset": 0.98674560,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -1999,
+      "maxX": -875,
+      "minY": -170,
+      "maxY": -120
+    }
+  },
+  {
+    "id": 1727342079443985,
+    "viewName": "CBK-RTA-CRKR Board",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 26,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -1999,
+      "maxX": -1431,
+      "minY": -170,
+      "maxY": -120
+    }
+  },
+  {
+    "id": 1727342081541125,
+    "viewName": "HBD-ET-DRA BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 60,
+        "startOffset": 0.00000000,
+        "endOffset": 0.77462784
+      },
+      {
+        "blockId": 61,
+        "startOffset": 0.77462784,
+        "endOffset": 0.99995904
+      }
+    ],
+    "boundingBox": {
+      "minX": 7757,
+      "maxX": 8627,
+      "minY": -200,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342081541142,
+    "viewName": "DRA-CKKD BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 62,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 8573,
+      "maxX": 11153,
+      "minY": -170,
+      "maxY": -130
+    }
+  },
+  {
+    "id": 1727342080230405,
+    "viewName": "MNV-MDVK-MAKR BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 39,
+        "startOffset": 0.00000000,
+        "endOffset": 0.96849632
+      },
+      {
+        "blockId": 40,
+        "startOffset": 0.96849632,
+        "endOffset": 0.99996400
+      }
+    ],
+    "boundingBox": {
+      "minX": -3147,
+      "maxX": 1435,
+      "minY": -890,
+      "maxY": -130
+    }
+  },
+  {
+    "id": 1727342080230411,
+    "viewName": "MAKR-BINA-MABA BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 41,
+        "startOffset": 0.00000000,
+        "endOffset": 0.35979424
+      },
+      {
+        "blockId": 42,
+        "startOffset": 0.35979424,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -2535,
+      "maxX": 2657,
+      "minY": -870,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342082327556,
+    "viewName": "CKKD-TLV-MTA-KNW BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 69,
+        "startOffset": 0.00000000,
+        "endOffset": 0.96932304
+      },
+      {
+        "blockId": 70,
+        "startOffset": 0.96932304,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 11027,
+      "maxX": 11739,
+      "minY": -170,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342079968256,
+    "viewName": "MABN-MNV BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 33,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -1001,
+      "maxX": 903,
+      "minY": -160,
+      "maxY": -130
+    }
+  },
+  {
+    "id": 1727342079968266,
+    "viewName": "MNV-MDVK-BINA-MABA BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 34,
+        "startOffset": 0.00000000,
+        "endOffset": 0.69965676
+      },
+      {
+        "blockId": 35,
+        "startOffset": 0.69965676,
+        "endOffset": 0.72029646
+      },
+      {
+        "blockId": 36,
+        "startOffset": 0.72029646,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 829,
+      "maxX": 2657,
+      "minY": -180,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342079968273,
+    "viewName": "MNV-MDVK-AGD BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 37,
+        "startOffset": 0.00000000,
+        "endOffset": 0.96127592
+      },
+      {
+        "blockId": 38,
+        "startOffset": 0.96127592,
+        "endOffset": 0.99989790
+      }
+    ],
+    "boundingBox": {
+      "minX": 829,
+      "maxX": 9126,
+      "minY": -280,
+      "maxY": 40
+    }
+  },
+  {
+    "id": 1727342082065411,
+    "viewName": "MTA-TLV-CKKD BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 65,
+        "startOffset": 0.00000000,
+        "endOffset": 0.44654166
+      },
+      {
+        "blockId": 66,
+        "startOffset": 0.44654166,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 11027,
+      "maxX": 11739,
+      "minY": -170,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342082065417,
+    "viewName": "CKKD-TLV-MTA-KBCB BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 67,
+        "startOffset": 0.00000000,
+        "endOffset": 0.96932304
+      },
+      {
+        "blockId": 68,
+        "startOffset": 0.96932304,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 11027,
+      "maxX": 11739,
+      "minY": -170,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342080754694,
+    "viewName": "MABA-BVB BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 45,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 2523,
+      "maxX": 5079,
+      "minY": -160,
+      "maxY": -120
+    }
+  },
+  {
+    "id": 1727342080754700,
+    "viewName": "BVB-NSZ-SHRN-BQE BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 46,
+        "startOffset": 0.00000000,
+        "endOffset": 0.97135437
+      },
+      {
+        "blockId": 47,
+        "startOffset": 0.97135437,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 4945,
+      "maxX": 5697,
+      "minY": -310,
+      "maxY": -120
+    }
+  },
+  {
+    "id": 1727342080492548,
+    "viewName": "AGD-BINA-MABA BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 43,
+        "startOffset": 0.00000000,
+        "endOffset": 0.50191672
+      },
+      {
+        "blockId": 44,
+        "startOffset": 0.50191672,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 2059,
+      "maxX": 9717,
+      "minY": -290,
+      "maxY": 40
+    }
+  },
+  {
+    "id": 1727342079181828,
+    "viewName": "MKC-SFY-PFR BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 21,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -2779,
+      "maxX": -2387,
+      "minY": -150,
+      "maxY": -140
+    }
+  },
+  {
+    "id": 1727342081278977,
+    "viewName": "MDDP-HBD BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 55,
+        "startOffset": 0,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": 6541,
+      "maxX": 7891,
+      "minY": -170,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342081278983,
+    "viewName": "HBD-ET-GRO BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 56,
+        "startOffset": 0.00000000,
+        "endOffset": 0.96783652
+      },
+      {
+        "blockId": 57,
+        "startOffset": 0.96783652,
+        "endOffset": 0.99991926
+      }
+    ],
+    "boundingBox": {
+      "minX": 7757,
+      "maxX": 8506,
+      "minY": -720,
+      "maxY": -110
+    }
+  },
+  {
+    "id": 1727342078919680,
+    "viewName": "Overview",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 1,
+        "startOffset": 0.00000000,
+        "endOffset": 0.16098441
+      },
+      {
+        "blockId": 2,
+        "startOffset": 0.16098441,
+        "endOffset": 0.17138400
+      },
+      {
+        "blockId": 3,
+        "startOffset": 0.17138400,
+        "endOffset": 0.36565398
+      },
+      {
+        "blockId": 4,
+        "startOffset": 0.36565398,
+        "endOffset": 0.49552287
+      },
+      {
+        "blockId": 5,
+        "startOffset": 0.49552287,
+        "endOffset": 0.49637202
+      },
+      {
+        "blockId": 6,
+        "startOffset": 0.49637202,
+        "endOffset": 0.49744539
+      },
+      {
+        "blockId": 7,
+        "startOffset": 0.49744539,
+        "endOffset": 0.49823349
+      },
+      {
+        "blockId": 8,
+        "startOffset": 0.49823349,
+        "endOffset": 0.49910151
+      },
+      {
+        "blockId": 9,
+        "startOffset": 0.49910151,
+        "endOffset": 0.66853524
+      },
+      {
+        "blockId": 10,
+        "startOffset": 0.66853524,
+        "endOffset": 0.66853524
+      },
+      {
+        "blockId": 11,
+        "startOffset": 0.66853524,
+        "endOffset": 0.66853524
+      },
+      {
+        "blockId": 12,
+        "startOffset": 0.66853524,
+        "endOffset": 0.66930447
+      },
+      {
+        "blockId": 13,
+        "startOffset": 0.66930447,
+        "endOffset": 0.67037340
+      },
+      {
+        "blockId": 14,
+        "startOffset": 0.67037340,
+        "endOffset": 0.67037340
+      },
+      {
+        "blockId": 15,
+        "startOffset": 0.67037340,
+        "endOffset": 0.78064968
+      },
+      {
+        "blockId": 16,
+        "startOffset": 0.78064968,
+        "endOffset": 0.97697205
+      },
+      {
+        "blockId": 17,
+        "startOffset": 0.97697205,
+        "endOffset": 0.97779678
+      },
+      {
+        "blockId": 18,
+        "startOffset": 0.97779678,
+        "endOffset": 0.97884351
+      },
+      {
+        "blockId": 19,
+        "startOffset": 0.97884351,
+        "endOffset": 0.99930747
+      },
+      {
+        "blockId": 20,
+        "startOffset": 0.99930747,
+        "endOffset": 1
+      }
+    ],
+    "boundingBox": {
+      "minX": -3147,
+      "maxX": 11739,
+      "minY": -890,
+      "maxY": 430
+    }
+  },
+  {
+    "id": 1727342081278989,
+    "viewName": "HBD-ET-JUH BOARD",
+    "sectionalViewShortName": null,
+    "sectionalViewLongName": null,
+    "blocks": [
+      {
+        "blockId": 58,
+        "startOffset": 0.00000000,
+        "endOffset": 0.95954334
+      },
+      {
+        "blockId": 59,
+        "startOffset": 0.95954334,
+        "endOffset": 0.99991317
+      }
+    ],
+    "boundingBox": {
+      "minX": 7757,
+      "maxX": 8609,
+      "minY": -200,
+      "maxY": 20
+    }
+  }
+]
